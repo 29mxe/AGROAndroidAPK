@@ -1,0 +1,9 @@
+Подготовка перед Android build:
+- сохранены изменения VibeCode: «Поля рядом», фильтры, «Нужен совет/Решено», «Полезно», похожие случаи, приватность геопозиции, offline-черновик, закладки и профиль;
+- удалены известные конфликтующие Android-зависимости, которые исходный код не импортирует;
+- удалены VibeCode editor-only patchedDependencies/patches, чтобы GitHub собирал стандартный standalone Expo APK;
+- зафиксирован Android package com.vibecode.testapp;
+- версия повышена до 1.2.0 / versionCode 3;
+- добавлен ErrorBoundary, обработка ошибок splash/font загрузки;
+- backend исходники сохранены, но секретные .env исключены из пакета;
+- добавлен готовый GitHub Actions workflow для Release APK.

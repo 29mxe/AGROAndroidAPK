@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "AgroConnect",
+    "slug": "vibecode",
+    "scheme": "vibecode",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.vibecode.testapp",
+      "versionCode": 3
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
